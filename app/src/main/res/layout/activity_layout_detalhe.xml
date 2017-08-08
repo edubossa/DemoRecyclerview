@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.ews.demorecyclerview.LayoutDetalheActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:paddingTop="8dp"
+            tools:text="Nome:"/>
+
+        <TextView
+            android:id="@+id/dtNomeLivro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textSize="22sp"
+            tools:text="JSF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:paddingTop="8dp"
+            tools:text="Autor:"/>
+
+        <TextView
+            android:id="@+id/dtNomeAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textSize="22sp"
+            android:paddingTop="8dp"
+            tools:text="Wallace"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:paddingTop="8dp"
+            tools:text="Descricao:"/>
+
+    <TextView
+        android:id="@+id/dtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:textSize="22sp"
+        android:paddingTop="8dp"
+        tools:text="JAVA RX 2.0"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:paddingTop="8dp"
+            tools:text="Preco:"/>
+
+        <TextView
+            android:id="@+id/dtPreco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textSize="22sp"
+            android:textColor="#f40d19"
+            android:paddingTop="8dp"
+            tools:text="12.43"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

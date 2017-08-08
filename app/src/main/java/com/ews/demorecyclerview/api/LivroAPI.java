@@ -1,0 +1,39 @@
+package com.ews.demorecyclerview.api;
+
+import com.ews.demorecyclerview.model.Livro;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Created by wallace on 26/06/17.
+ */
+public class LivroAPI {
+
+    public static List<Livro> livros() {
+        List<Livro> livros = new ArrayList<>();
+        livros.add(new Livro("JSF", "JP. LIKORG", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 89.88));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 100.88));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 45.45));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 45.23));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 43.54));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 65.76));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 87.98));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 23.32));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 54.34));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 45.12));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 55.45));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 33.45));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 98.98));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 12.23));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 45.54));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 33.23));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 12.23));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 66.76));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 77.67));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 88.78));
+        livros.add(new Livro("DEMO", "EDUARDO WALLACE", "DESCRICAO LIVRO SOBRE TEMPLATE DEMO LAYOUT ANDROID", 99.99));
+        return livros;
+    }
+
+}
